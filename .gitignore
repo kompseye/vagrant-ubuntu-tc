@@ -1,1 +1,14 @@
-.vagrant
+# never let the aws credentials get versioned!
+.aws
+.aws/credentials
+.aws/config
+.aws/*
+
+# these are files which get generated once you vagrant ssh
+.cache
+.bash_history
+vagrant/.vagrant
+.viminfo
+.oracle_jre_usage/
+
+
